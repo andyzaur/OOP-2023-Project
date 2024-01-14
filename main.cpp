@@ -695,6 +695,7 @@ void startApp() {
         switch (alegere) {
         case 1:
             afiseazaMeniuFlow();
+            updateCsvFile(1);
             break;
         case 2:
             afiseazaFlowuriExistente();
