@@ -1,0 +1,135 @@
+Testing matrix
+
+1. As a user, I want to build flows using existing predefined steps.
+- functioneaza
+
+2. As a user, I want to see what steps are available for me and a description of those steps.
+- functioneaza
+
+3. As a user, I want to be able to create new flows.
+-functioneaza
+
+4. As a user, when I create a flow, it will be a linear one, following all the steps I added.
+- nu este neaparat lineara
+
+5. As a user, I can skip any step in a flow (skipping a screen will send me to the next step of the flow).
+- functioneaza
+
+6. As a user, I want to be able to add as many steps as I want for a flow.
+- functioneaza
+
+7. As a user, I can add any type of step as many times as I want into the flow.
+- functioneaza
+
+8. As a user, when I want to add a TITLE step, I need to add a title and a subtitle.
+- functioneaza
+
+9. As a user, when I want to add a TEXT step, I need to add a title and a copy (text).
+- functioneaza
+
+10. As a user, when I want to add a TEXT INPUT step, I need to add a description of the expected input.
+- functioneaza
+
+11. As a user, when I want to add a NUMBER INPUT step, I need to add description to the expected input.
+- functioneaza
+
+12. As a user, when I want to add a CALCULUS step, I need to be able to add previous NUMBER INPUT steps and operation symbols (e.g. step 3 + step 5).
+- numerele sunt introduse intr-un vector si se pot alege operatiile, dar nu sub forma step 3 + step 5
+
+13. As a user, I want to be able to see the result of the CALCULUS step.
+- functioneaza
+
+14. As a system, I can perform the following operations for a CALCULUS step:
+   1. Addition (+)
+   2. Subtraction (-)
+   3. Multiplication (*)
+   4. Division (/)
+   5. Minimum (min)
+   6. Maximum (max)
+- functioneaza
+
+15. As a user, when I want to add a DISPLAY step, I will need to provide as an input a previous step that has information:
+   1. TEXT INPUT
+   2. CSV INPUT
+-functioneaza
+
+16. As a user, when I add a DISPLAY step, it will show me the content of the file.
+- functioneaza
+
+17. As a user, I want to add a TEXT FILE input step, that will allow me to add .txt files.
+- functioneaza
+
+18. As a user, I want to add a CSV FILE input step, that will allow me to add .csv files.
+- functioneaza
+
+19. As a user, I want to add an OUTPUT step that will generate a text file as an output.
+- functioneaza
+
+20. As a user, when I add an OUTPUT step I need to provide a name for the file that will be generated.
+- functioneaza
+
+21. As a user, when I add an OUTPUT step I need to provide a title for the file that will be generated.
+- functioneaza
+
+22. As a user, when I add an OUTPUT step I need to provide a description for the file that will be generated.
+- functioneaza
+
+23. As a user, when I add an OUTPUT step I can add information from the previous steps to be added in the file.
+- functioneaza dar se baga automat toti pasii facuti pana cand se alege output step (utilizatorul nu poate alege ce pasi sunt sau nu afisati in fisierul de output)
+
+24. As a user, when I want to signal the end of a flow, I need to be able to add an END step.
+- functioneaza
+
+25. As a user, when I don’t enter the right information in one of the steps I need to see an error screen with an error message.
+- functioneaza daca sunt introduse date de acelasi tip. ( de ex la number input step daca introduc o litera nu va mai functiona, dar daca scriu alt numar functioneaza)
+
+26. As a user, when I see an error screen I need to be able to either retry the step or go to the next one.
+- functioneaza (se intoarce automat in meniul cu flow steps)
+
+27. As a user, I want to be able to add a name for each flow that I create.
+- functioneaza (in end step cand se salveaza flow-ul)
+
+28. As a user, I want to see when each flow has been created (timestamp).
+- functioneaza
+
+29. As a user, I want to be able to run a flow that has been created.
+- nu functioneaza (doar sunt afisate)
+
+30. As a user, when I run a flow, I will need to be able to navigate to a next step by:
+   1. Completing the action of the step and selecting next
+   2. By skipping the step
+- nu functioneaza cu flow-uri existente
+
+31. As a user, when I run the flow, I need to go through each of the steps that were added to that flow.
+- nu funtioneaza (datele din fiecare flow sunt salvate intr un document txt)
+
+32. As a user, I want to see analytics for each flow:
+   1. How many times the flow has been started
+   - functioneaza
+
+   2. How many times the flow has been completed
+   - functioneaza
+
+   3. How many times each screen has been skipped
+   - functioneaza (apare de cate ori a fost ales fiecare step)
+
+   4. Number of error screens displayed for each step
+   - nu sunt afisate pentru fiecare step, ci in total
+
+   5. Average number of errors per flow completed
+   - nu este afisata media, ci numarul total de erori
+
+33. As a user, I can also delete flows from the system.
+- functioneaza
+
+Alte probleme
+
+- in cod sunt caile mele catre fisiere si foldere
+
+- in momentul in care este introdusa o litera in number input se blocheaza
+
+- in momentul in care este introdusa o litera in meniul principal ca input se blocheaza si se goleste fisierul analytics.csv (presupun ca este intr un infinite loop)
+
+- aceeasi eroare este in majoritatea meniurilor cu number input
+
+- nu pot accesa flow-uri existente in niciun mod, doar afisate
