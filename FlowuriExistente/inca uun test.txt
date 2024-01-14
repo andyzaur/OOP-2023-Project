@@ -1,0 +1,46 @@
+--- Title step ---
+Title is :1
+Subitle is :1
+
+--- Text step: ---
+Title is: 2
+Copy is: 2
+
+--- Text step: ---
+Title is: 2
+Copy is: 2
+
+--- Text Input step: ---
+Description is: 3
+Text Input is: 3
+
+--- Text Input step: ---
+Description is: 3
+Text Input is: 3
+
+--- Number Input Step --- 
+Description: 4, Number input is: 4.000000
+
+--- Number Input Step --- 
+Description: 4, Number input is: 4.000000
+
+--- Number Input Step --- 
+Description: 4, Number input is: 4.000000
+
+--- Calculus step---
+Result is: 12.000000
+
+--- Text file input step ---
+TXT File name is: /Users/andyg/Facultate/Anul 2 Sem I/POO/FLOW/FlowCreate/FlowCreate/documente csv si text/OOP 2023 Project.txt
+
+--- CSV file input step ---
+CSV File name is: /Users/andyg/Facultate/Anul 2 Sem I/POO/FLOW/FlowCreate/FlowCreate/documente csv si text/CsvInputTest1
+
+--- Display step ---
+The displayed text file is: /Users/andyg/Facultate/Anul 2 Sem I/POO/FLOW/FlowCreate/FlowCreate/documente csv si text/OOP 2023 Project.txt
+
+--- Display step ---
+The displayed CSV file is: /Users/andyg/Facultate/Anul 2 Sem I/POO/FLOW/FlowCreate/FlowCreate/documente csv si text/OOP 2023 Project.txt
+
+
+Timestamp: 2024-01-14 04:50:47

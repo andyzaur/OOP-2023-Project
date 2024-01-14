@@ -1,0 +1,29 @@
+--- Title step ---
+Title is :TEST 2
+Subitle is :SUBTITLE 2
+
+--- Text step: ---
+Title is: TEXT
+Copy is: COPY
+
+--- Text Input step: ---
+Description is: DESCRIPTION
+Text Input is: TEXT INPUT
+
+--- Number Input Step --- 
+Description: NUM 1, Number input is: 1000.000000
+
+--- Number Input Step --- 
+Description: NUM 2, Number input is: 20.000000
+
+--- Calculus step---
+Result is: 50.000000
+
+--- Text file input step ---
+TXT File name is: /Users/andyg/Downloads/Proiect Laborator POO '23.txt
+
+--- CSV file input step ---
+CSV File name is: /Users/andyg/Facultate/Anul 2 Sem I/POO/lucrarea 2/Bucharest_HousePriceDataset.csv
+
+
+Timestamp: 2024-01-14 03:01:58
