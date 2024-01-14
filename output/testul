@@ -1,0 +1,23 @@
+Description: Testing the flow
+
+--- Title step ---
+Title is :test flow
+Subitle is :test
+
+--- Text step: ---
+Title is: salut
+Copy is: copy
+
+--- Text Input step: ---
+Description is: hello
+Text Input is: world
+
+--- Number Input Step --- 
+Description: numar 1, Number input is: 100.000000
+
+--- Number Input Step --- 
+Description: numar 2, Number input is: 50.000000
+
+--- Calculus step---
+Result is: 2.000000
+

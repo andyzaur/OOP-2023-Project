@@ -1,0 +1,29 @@
+Description: descrierea fisierului
+
+--- Title step ---
+Title is :titlu
+Subitle is :test
+
+--- Text step: ---
+Title is: text
+Copy is: step
+
+--- Text Input step: ---
+Description is: test input
+Text Input is: step
+
+--- Number Input Step --- 
+Description: numar, Number input is: 111.000000
+
+--- Number Input Step --- 
+Description: numar, Number input is: 222.000000
+
+--- Calculus step---
+Result is: 24642.000000
+
+--- Calculus step---
+Result is: 111.000000
+
+--- Text file input step ---
+TXT File name is: /Users/andyg/Downloads/Proiect Laborator POO '23.txt
+

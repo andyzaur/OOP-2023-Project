@@ -1,0 +1,27 @@
+Description: Graduation
+
+--- Title step ---
+Title is :hello
+Subitle is :world
+
+--- Text step: ---
+Title is: whats
+Copy is: up
+
+--- Text Input step: ---
+Description is: good
+Text Input is: morning
+
+--- Number Input Step --- 
+Description: 100, Number input is: 100.000000
+--- Number Input Step --- 
+Description: rack, Number input is: 5.000000
+--- Number Input Step --- 
+Description: 9, Number input is: 9.000000
+--- Calculus step---
+Result is: 5.000000
+
+--- Text file input step ---
+TXT File name is: /Users/andyg/Facultate/Anul 2 Sem I/POO/lucrare anuntata/report_1635347195.txt
+--- CSV file input step ---
+CSV File name is: /Users/andyg/Facultate/Anul 2 Sem I/POO/lucrarea 2/Bucharest_HousePriceDataset.csv
